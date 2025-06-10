@@ -397,5 +397,12 @@ p {
   }
   #viaggio .fiori{
   margin-top: 12em;
+  }
 }
+
+@supports (-webkit-touch-callout: none) {
+    .date-section .date {
+        line-height: 1.5;
+        padding-top: 0.1em;
+    }
 }
