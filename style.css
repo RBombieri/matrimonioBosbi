@@ -206,7 +206,7 @@ p {
     border: none;
     border-bottom: 0.052vw solid #000;
     background: transparent;
-    padding: 1em 0 0.3em 0;  /* aumenta da 0.7em a 1em */
+    padding: 1em 0 0.3em 0; 
     margin-bottom: 0.5em;
     font-family: inherit;
     font-size: inherit;
