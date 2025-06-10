@@ -206,7 +206,7 @@ p {
     border: none;
     border-bottom: 0.052vw solid #000;
     background: transparent;
-    padding: 0.7em 0 0.3em 0;
+    padding: 1em 0 0.3em 0;  /* aumenta da 0.7em a 1em */
     margin-bottom: 0.5em;
     font-family: inherit;
     font-size: inherit;
@@ -241,8 +241,9 @@ p {
     margin-top: 0.5em;    
 }
 
-#allergie_label{
-    margin-top: 4.5em;
+#allergie_label {
+    margin-top: 3.5em;
+    margin-bottom: 0.8em;
 }
 
 #form input[type="submit"] {
@@ -359,12 +360,12 @@ p {
   }
   
   #form input[type="text"] {
-    padding: 1em 0 0.4em 0;
+    padding: 1.2em 0 0.4em 0;
     line-height: 1.5;
     font-size: 1.6vw;
     margin-bottom: 0.2em;
     height: 2vw;
-  }
+}
   
   #form input[type="radio"] {
     width: 1.8vw;
