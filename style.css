@@ -407,6 +407,18 @@ p {
         padding-top: 0.1em;
     }
 }
+@supports (-webkit-touch-callout: none) {
+    .date-section .andrea {
+        line-height: 1.5;
+        padding-top: 0.1em;
+    }
+}
+@supports (-webkit-touch-callout: none) {
+    .date-section .serena {
+        line-height: 1.5;
+        padding-top: 0.1em;
+    }
+}
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     p {
