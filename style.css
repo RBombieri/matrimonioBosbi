@@ -277,6 +277,15 @@ p {
   width: 80%;
 }
 
+#section_aperitivo{
+  gap: 9em;
+  margin-right: 1em;
+}
+#section_cerimonia{
+  gap: 8em;
+  margin-left: 1em;
+}
+
 .section img {
   width: 40% !important;
   height: auto !important;
